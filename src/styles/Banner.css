@@ -1,0 +1,43 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+}
+
+#banner{
+    background: no-repeat url('../assets/cc.jpg');
+    background-position-x: 42%;
+    background-position-y: 15% ;
+    background-size: 800px;
+    background-color: black;
+    opacity: 0.8;
+    border-radius: 20px;
+    width: 800px;
+    height: 200px;
+    position: relative;
+    top: 0;
+    border: 5px solid gold;
+}
+
+#notbanner{
+    background: no-repeat url('../assets/cc.jpg');
+    background-position-x: 42%;
+    background-position-y: 15% ;
+    background-size: 800px;
+    background-color: black;
+    opacity: 0.8;
+    border-radius: 20px;
+    width: 800px;
+    height: 200px;
+    position: relative;
+    top: 0;
+    border: 5px solid red;
+}
+
+.button{
+    color: white;
+    border-radius: 8px;
+    margin:0 16px 16px 16px;
+    width: 80px;
+}

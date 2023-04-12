@@ -1,0 +1,63 @@
+.mainflex{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.maingrid{
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-content: center;
+}
+
+.display{
+    color: white;
+    font-size: 20px;
+    padding: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 35px;
+    border: 1px solid gold;
+    border-radius: 8px;
+    position: fixed;
+    top: 50px;
+    left: 200px;
+}
+
+.article{
+    background-color: black;
+    width: 350px;
+    height: 150px;
+    border-radius: 16px;
+    margin: 10px;
+    display: flex;
+    padding: 8px;
+    border: 1px solid gold;
+}
+
+.image{
+    border-radius: 16px;
+    width: 125px;
+    height: 125px;
+    object-fit: cover;
+}
+
+.list{
+    color: white;
+    list-style:none;
+    font-size: 12px;
+    display: grid;
+    justify-content: flex-end;
+}
+
+ol li{
+    color: gold;
+    margin: 6px;
+    font-size: 10px;
+}
